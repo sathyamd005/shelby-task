@@ -1,0 +1,83 @@
+.bg-color{
+    background-color: #333333;
+}
+.txt_color{
+color:white
+}
+.nav_bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
+}
+a{
+    text-decoration: none !important;
+}
+a:hover{
+    color:yellowgreen !important;
+}
+#unique_color,.price_color{
+    color:#D7FE64
+}
+#bg_text{
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+#sm_text{
+    font-size: 20px;
+}
+.price{
+    background-color: #474747;
+    border-radius: 22px;
+    margin-right: 20px;
+}
+.icon_resize{
+    font-size: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+.txt_resize{
+    font-size: 15px;
+}
+.login_resize{
+    padding: 20px 50px;
+}
+input{
+    background-color: #474747;
+    border: none;
+    border-radius: 10px;
+    width:100%
+}
+
+.Login_content{
+    z-index:0;
+}
+.style{
+    position: relative;
+    
+    z-index:0;
+}
+.form {
+    background-color: #474747;
+    border-radius: 20px;
+  z-index: 2;
+}
+.lefttoForm{
+    position: absolute;
+    left: -5px;
+    top: -5px;
+    z-index: -1;
+}
+.righttoForm{
+    position: absolute;
+    bottom: -5px;
+    right:-5px ;
+    z-index: -1;
+}
+hr{
+    color:white !important;
+}
+.footer_txt_color{
+    color:  #908a8a;
+}
